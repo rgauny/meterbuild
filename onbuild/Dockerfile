@@ -1,4 +1,4 @@
-FROM meteorhacks/meteord:base
+FROM rgauny/meterbuild:base
 MAINTAINER MeteorHacks Pvt Ltd.
 
 ONBUILD COPY ./app /app

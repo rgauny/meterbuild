@@ -7,6 +7,7 @@ BUNDLE_DIR=/tmp/bundle-dir
 # this fixes that
 cp -R /app $COPIED_APP_PATH
 cd $COPIED_APP_PATH
+npm install
 
 meteor build --directory $BUNDLE_DIR --server=http://localhost:3000
 
