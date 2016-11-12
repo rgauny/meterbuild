@@ -8,6 +8,8 @@ BUNDLE_DIR=/tmp/bundle-dir
 echo "=> Copying the app"
 cp -R /app $COPIED_APP_PATH
 cd $COPIED_APP_PATH
+echo "=> Printing Phantomjs information..."
+phantomjs --version
 
 echo "=> Executing NPM install --production"
 meteor npm install --production
