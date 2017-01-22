@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e5d276-e296-475b-b32b-85e2653aff7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/scripts/lib/install_node.sh" afterPath="$PROJECT_DIR$/base/scripts/lib/install_node.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/scripts/run_app.sh" afterPath="$PROJECT_DIR$/base/scripts/run_app.sh" />
     </list>
     <ignored path="meterbuild.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install_node.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="install_node.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/scripts/lib/install_node.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="374">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_app.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run_app.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/base/scripts/run_app.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1078">
-              <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+            <state relative-caret-position="748">
+              <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -136,11 +136,11 @@
         <option value="$PROJECT_DIR$/onbuild/Dockerfile" />
         <option value="$PROJECT_DIR$/devbuild/Dockerfile" />
         <option value="$PROJECT_DIR$/base/Dockerfile" />
-        <option value="$PROJECT_DIR$/base/scripts/run_app.sh" />
         <option value="$PROJECT_DIR$/binbuild/Dockerfile" />
         <option value="$PROJECT_DIR$/binbuild/scripts/install_binbuild_tools.sh" />
         <option value="$PROJECT_DIR$/base/scripts/lib/build_app.sh" />
         <option value="$PROJECT_DIR$/base/scripts/lib/install_node.sh" />
+        <option value="$PROJECT_DIR$/base/scripts/run_app.sh" />
       </list>
     </option>
   </component>
@@ -395,12 +395,12 @@
       <workItem from="1485016790332" duration="645000" />
       <workItem from="1485019824608" duration="2000" />
       <workItem from="1485020925417" duration="12000" />
-      <workItem from="1485021259142" duration="1978000" />
+      <workItem from="1485021259142" duration="3445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7566000" />
+    <option name="totallyTimeSpent" value="9033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -835,18 +835,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/scripts/run_app.sh">
+    <entry file="file://$PROJECT_DIR$/base/scripts/lib/install_node.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/scripts/lib/install_node.sh">
+    <entry file="file://$PROJECT_DIR$/base/scripts/run_app.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="748">
+          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
           <folding />
         </state>
       </provider>
